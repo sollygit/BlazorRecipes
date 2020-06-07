@@ -9,16 +9,16 @@
 }
 else
 {
-<ul class="recipe-list">
-    @foreach (var recipe in recipes)
-    {
-    <li class="recipe-list-item">
-        <a href="@recipe.Id">
-            <RecipeCard Recipe="recipe" />
-        </a>
-    </li>
-    }
-</ul>
+    <ul class="recipe-list">
+        @foreach (var recipe in recipes)
+        {
+        <li class="recipe-list-item">
+            <a href="@recipe.Id">
+                <RecipeCard Recipe="recipe" />
+            </a>
+        </li>
+        }
+    </ul>
 }
 
 @code {
