@@ -1,6 +1,6 @@
-# Best For You recipes
+# Blazor Recipes
 
-Best For You recipes site in Blazor.
+Recipes site in Blazor.
 
 - Search with debouncing
 - Reusable star ratings components
